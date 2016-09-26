@@ -1,0 +1,42 @@
+PCAdmix begins
+1. Loading data...
+Storing marker coordinates...
+Reading haplotypes...
+Markers pruned in population 0 due to low genotyping rate: 0
+Markers pruned in population 0 due to low MAF: 0
+Markers pruned in population 0 for high LD: 209
+Finished processing population 0
+Pop size: 60
+Markers pruned in population 1 due to low genotyping rate: 0
+Markers pruned in population 1 due to low MAF: 0
+Markers pruned in population 1 for high LD: 33
+Finished processing population 1
+Pop size: 60
+Markers pruned in population 2 due to low genotyping rate: 0
+Markers pruned in population 2 due to low MAF: 0
+Markers pruned in population 2 for high LD: 24
+Finished processing population 2
+Pop size: 56
+Removed 30 SNPs monomorphic in all ancestors (0 variance)
+Markers pruned in population 3 due to low genotyping rate: 0
+Markers pruned in population 3 for high LD: 34
+Finished processing population 3
+Pop size: 660
+MAF, LD, missingness filtering...
+Finished missingness/LD pruning
+Remaining markers for analysis: 252
+Storing genetic distances...
+Window construction: making windows of fixed size 20 SNPs
+13 windows created
+
+2. Begin PCA...
+
+3. Computing emission probabilities...
+
+4. HMM: Computing forward-backward probabilities and Viterbi path
+
+Analysis complete. Results sent to: 
+Viterbi: ancestry_output.vit.txt
+Posterior probabilities: ancestry_output.fbk.txt
+Genome-wide ancestries: ancestry_output.ia.txt
+Markers/Windows information: ancestry_output.markers.txt
